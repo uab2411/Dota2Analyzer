@@ -3,7 +3,6 @@ from data_extractor.extractor import Excractor
 
 
 class User(Excractor):
-    
     def __init__(self) -> None:
         super().__init__()
 
