@@ -130,3 +130,6 @@ dmypy.json
 
 # VS CODE
 .vscode/
+
+# User data
+data/
