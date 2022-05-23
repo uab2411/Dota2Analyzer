@@ -15,5 +15,5 @@ class OpendotaConnector:
 
     def get_match_details(self, match_id: int):
         url = f"""https://api.opendota.com/api/matches/{match_id}"""
-        matche_details_json = json.loads(requests.get(url).content)
-        return matche_details_json
+        match_details_json = json.loads(requests.get(url).content)
+        return match_details_json
